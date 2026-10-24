@@ -1,4 +1,10 @@
-# Squad photo asset provenance
+# Asset provenance
+
+## Homepage hero image
+
+`public/images/hero-accra-football.jpg` is the image supplied by the user in Telegram and used as a decorative homepage hero background. It was verified as a 1280 × 720 JPEG (124,054 bytes). No source, generation-provider, or licensing metadata was verified. It depicts a football training scene; it is not presented as verified club photography, official kit, or a real match.
+
+## Squad photo asset provenance
 
 The public-facing `/squad` gallery uses 21 optimised local WebP display derivatives (640 × 800, 4:5 crops) from images recorded in `app/squad/players.ts`. Each original portrait was visibly paired with its name on the club's public Players page, `https://www.goldenkicksc.com/team`. The app serves the locally stored WebP derivatives and does not depend on the source site at runtime; each exact source image URL is preserved in the player data for auditability.
 

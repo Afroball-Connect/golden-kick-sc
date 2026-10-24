@@ -20,6 +20,7 @@ npm start
 ## Included
 
 - Responsive club masthead and mobile navigation
+- Responsive homepage hero using a user-supplied 1280 × 720 football-training photograph with mobile-aware focal positioning and a contrast overlay
 - Persistent light/dark theme switch on the home page and squad page
 - Interactive club-news carousel linking to the club's published archive
 - Fixtures/results switch and honest match-centre pending states
